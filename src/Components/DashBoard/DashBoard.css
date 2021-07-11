@@ -1,0 +1,35 @@
+.alignment {
+  display: flex;
+  justify-content: space-between
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+  margin-top: 6px;
+}
+
+.gridItem {
+  text-align: center;
+  margin-left: 31px
+}
+
+.gridItem0 {
+  text-align: left;
+}
+
+.gridItem1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.MuiButton-fab-123{
+  width: 46px;
+  height: 48px;
+}
+.tabcontainerButton.container{
+  width: 46px;
+  height: 48px;
+}

@@ -1,0 +1,103 @@
+.GridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+.GridItem {
+  padding: 20px;
+}
+
+.button {
+    background-color: rgb(238, 245, 238); /* Green */
+    border: none;
+    color: rgb(12, 1, 1);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+      width: 80%;
+    background-color: #ff4081;
+    color: #fff;
+}
+.button3 {
+      width: 80%;
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+
+.Tradecontainer {
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+.TradeItem {
+  padding: 48px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.price_expect {
+    text-align: right;
+    color: #777777;
+    font-size: 8px;
+}
+
+
+.grid_description {
+    grid-column: 1/2;
+    grid-row: auto;
+    font-size: 12px;
+}
+.grid_value {
+    grid-column: 1/ 3;
+    grid-column: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+.grid_commission {
+    grid-column: 1/3;
+    grid-row: auto;
+    font-size:18px;
+    color: #25b2dd;
+}
+.grid_comfirm {
+    grid-column: 1/4;
+    grid-row: auto;
+    font-size: 18px;
+}
+
+.ButtonControl {
+  display: flex;
+  justify-content: space-between
+}
+
+.ConfirmContainer {
+  display: grid;
+  grid-template-columns: auto auto ;
+
+  padding: 10px;
+}
+.ConfirmItem {
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+
+}
+.ConfirmItem1 {
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+
+}

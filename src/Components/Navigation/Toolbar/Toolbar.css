@@ -1,0 +1,30 @@
+.Toolbar {
+  display: grid;
+  grid-gap: 3px 0px ;
+  
+  background: #3f51b5;
+  border: 1px solid #c4c4c4;
+  grid-template-columns: auto  ;
+  padding: 10px;
+  box-shadow: 6px 7px 7px #000000a3;
+ 
+}
+.ToolbarItem {
+ display: flex;
+    justify-content: inherit;
+  font-size: 20px;
+  text-align: inherit;
+}
+
+.Icon {
+        position: relative;
+    top: 25px;
+    font-size: 1em;
+    color: white
+}
+
+.Text > h4{
+        padding-left: 20px;
+        color: #FFFFFF;
+        
+}

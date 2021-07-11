@@ -1,0 +1,17 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+.gridItem {
+  font-size: 30px;
+  text-align: center;
+}
+.gridItem1 {
+  font-size: 30px;
+  text-align: left;
+}
+.iconData {
+  display: flex;
+  justify-content: flex-start; 
+}
